@@ -1,0 +1,14 @@
+{
+  "name": "pet-shop",
+  "version": "1.0.0",
+  "description": "My Pet Shop",
+  "author": "Vũ Đắc Hoàng Ân",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "truffle": "^5.5.29"
+  }
+}
