@@ -100,7 +100,9 @@ App = {
       }).then(function (_) {
         return App.markAdopted();
       }).catch(function (err) {
-        console.log(err.message);
+        if (err.code === 4001) {
+          console.error('User denied transaction');
+        }
       });
     });
   }

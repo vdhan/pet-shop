@@ -15,3 +15,9 @@ npx truffle migrate --network develop
 npx truffle test --network develop
 npx truffle console --network develop
 ```
+
+Run lite-server
+
+```shell
+npm run dev
+```
