@@ -34,8 +34,6 @@ App = {
           console.error('User denied account access');
         }
       }
-    } else if (window.web3) {
-      App.web3Provider = window.web3.currentProvider;
     } else {
       App.web3Provider = new Web3.providers.HttpProvider('http://127.0.0.1:8545');
     }
